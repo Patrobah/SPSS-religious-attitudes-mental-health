@@ -1,4 +1,4 @@
-# Project 5: Behavioral Epidemiology & Biostatistics in Public Mental Health
+# Project 4: Behavioral Epidemiology & Biostatistics in Public Mental Health
 **Platform & Tools:** IBM SPSS Statistics • Pearson Bivariate Correlation • Parametric Diagnostics  
 **Sample Population:** \(N = 133\) Christian Adults (Southern California Religious Communities & Colleges)
 
