@@ -40,10 +40,48 @@ To ensure complete structural transparency for corporate stakeholders and academ
 3. **Hypothesis Evaluation Layer:** Deploying Pearson Product-Moment Correlation Analysis to calculate directional \(r\)-coefficients and two-tailed significance metrics (\(p\)-values) at a strict \(\alpha = 0.05\) significance layer to validate or reject research hypotheses.
 
 ---
+## 📈 Empirical Findings & Research Question Resolutions
+
+The hypotheses for all three core Research Questions were tested at a strict \(\alpha = 0.05\) (5%) level of significance using a two-tailed Pearson Product-Moment Correlation matrix (\(N = 133\)).
+
+### Summary Statistical Matrix Table
+
+| Core Variable Relationship | Pearson Correlation (\(r\)) | Significance (\(p\)-value) | Status (\(H_0\)) | Strength & Direction |
+| :--- | :---: | :---: | :---: | :--- |
+| **RQ1:** Religious Attitudes $\leftrightarrow$ Perceived Fear | **0.314** | **< 0.001** | **Rejected** | Moderate Positive |
+| **RQ2:** Perceived Fear $\leftrightarrow$ Choice of Service | **0.341** | **< 0.001** | **Rejected** | Moderate Positive |
+| **RQ3:** Choice of Service $\leftrightarrow$ Reporting Delay | **0.506** | **< 0.001** | **Rejected** | Strong Positive |
+
+---
+
+### 🔍 Detailed In-Depth Research Question Breakdown
+
+#### 📍 RQ1: Religious Shifts vs. Service Apprehension
+*   **Statistical Output:** \(r = 0.314\), \(p < 0.001\) (Reported as 0.00 in SPSS log).
+*   **Resolution:** The null hypothesis (\(H_{10}\)) is **rejected**. 
+*   **Empirical Insight:** A statistically significant, moderate positive correlation exists between variables. As an individual’s adherence to restrictive religious attitudes regarding non-secular healing increases, their perceived psychological fear, anxiety, and apprehension towards traditional biomedical services scales upward proportionally.
+
+#### 📍 RQ2: Institutional Fear vs. Counseling Selection
+*   **Statistical Output:** \(r = 0.341\), \(p < 0.001\).
+*   **Resolution:** The null hypothesis (\(H_{20}\)) is **rejected**.
+*   **Empirical Insight:** There is a moderate positive behavioral alignment. Higher levels of trepidation and institutional stigma towards modern clinical psychology directly influence utilization choices, actively shifting an individual's preference away from secular practitioners and toward church-based pastoral counseling models. 
+
+#### 📍 RQ3: Service Preferences vs. Healthcare Delays
+*   **Statistical Output:** \(r = 0.506\), \(p < 0.001\).
+*   **Resolution:** The null hypothesis (\(H_{30}\)) is **rejected**.
+*   **Empirical Insight:** This represents the strongest bivariate linkage in the ecosystem. The data demonstrates a strong, highly significant positive correlation, proving that an individual's chosen pathway for counseling acts as a predictor for clinical intervention timelines. Proximity to specialized pastoral treatment frameworks over modern clinical medicine correlates significantly with measurable, extended delays in reporting acute mental health crises to professional biomedical providers.
+
+---
+
+## 🎯 Strategic Institutional Conclusions
+The empirical workflow confirms that within the Southern California Christian adult demographic, religious frameworks play a heavy gatekeeping role in mental health resource utilization. Higher fear scales and isolationist religious beliefs generate structural friction against secular interventions. 
+
+These outcomes provide valuable behavioral insights for mental health practitioners and religious leadership alike. They underscore the critical need to build collaborative, destigmatized pathways between clinical professionals and localized faith communities to facilitate early intervention strategies and ensure timely medical access.
+
 
 ## 📂 Repository File Inventory & Directory Guide
-*   📂 **`data/Raw_Data_Survey.xlsx`**: The raw, pre-processed survey response spreadsheet database matrix.
-*   📂 **`spss/Analysis_Syntax.sps`**: The stored point-and-click SPSS syntax script file mapping all data transformations, descriptives, and correlation executions for automated replication.
+*   📂 **`Numeric export Survey (Raw Data).xlsx`**: The raw, pre-processed survey response spreadsheet database matrix.
+*   📂 **`"SPSS Syntax file.sps"`**: The stored point-and-click SPSS syntax script file mapping all data transformations, descriptives, and correlation executions for automated replication.
 *   📂 **`spss/Output_Viewer_Log.spv`**: The direct, binary SPSS Output log window containing the resulting ANOVA tables, regression metrics, and assumption boxplots.
-*   📄 **`Chapter4_Research_Findings.pdf`**: The formal comprehensive chapter narrative detailing the detailed results write-up and data collection analysis tables.
+*   📄 **`Chapter 4 - Brennan.docx`**: The formal comprehensive chapter narrative detailing the detailed results write-up and data collection analysis tables.
  
